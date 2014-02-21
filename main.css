@@ -1,0 +1,226 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of Reset*/
+
+header {
+	height: 50px;
+	width: 100%;
+}
+
+ul {
+	position: absolute;
+	right: 18px;
+	margin-top: 12px;
+	font-family: Arial, sans-serif;
+	font-size: .8em;
+}
+
+li {
+	display:inline-block;
+	vertical-align: middle;
+	margin:0px 7px;
+
+}
+
+#grid {
+	background-image: url('images/grid.png');
+	height:22px;
+	width:22px;
+	
+}
+#bell {
+	background-image: url('images/bell.png');
+	height:27px;
+	width:25px;
+
+}
+
+#pic {
+	background: url('images/pic.png');
+	height:35px;
+	width:35px;
+}
+
+#logo {
+	width; 269px;
+	height: 207px;
+}
+
+#share a {
+	background-color:#f4f4f2;
+	padding:8px 12px;
+ 	color:black;
+ 	text-decoration: none;
+}
+#share a:hover {
+ 	background-color:gray;
+ 	padding:8px 12px;
+}
+
+#main_container {
+	height: 300px;
+	width:100%;
+	margin-top: 142px;
+}
+
+#logo {
+	background-image: url('images/google-logo.png');
+	width: 269px;
+	height: 95px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.search-container {
+	margin: auto;
+	width:600px;
+	height: 65px;
+	display:block;
+}
+
+input {
+	display:inline;
+  	font: 13px/27px Arial,sans-serif;
+  	
+}
+
+#SearchBar {
+	margin-top: 23px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 575px;
+	height:20px;
+	padding: 4px;
+	border: 1px solid #cccccc;
+	font-size: medium;
+	line-height: 16px;
+}
+
+#voice-search {
+	position: relative;
+	left: 560px;
+	bottom: 27px;
+	height: 25px;
+	width: 23px
+
+}
+
+#button-container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 230px;
+	margin-top: 4px;
+}
+
+.google_buttons {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: .7em; 
+	font-weight: bolder;
+	background-color: #f0f0f0;
+	border: 1px solid #cdcdcd;
+	border-radius: 2px;
+}
+
+div #search {
+	float: left;
+	margin-left: 3px;
+	padding: 8px 8px;
+}
+
+div #lucky {
+	float: right;
+	margin-right: 4px;
+	padding: 8px 8px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	height:40px;
+	width: 100%;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	background-color: #f2f2f2;
+	border-top: 1px solid #cdcdcd; 
+}
+
+#footer a {
+	color: gray;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+#footer ul li {
+	padding: 0 6px ;
+}
+
+#footer-left {
+	position: absolute;
+	left: 17px;
+}
+
+#footer-right {
+	position: absolute;
+	right: 17px;
+}
+
+
+
+
+
+
+
+
